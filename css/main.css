@@ -1,0 +1,160 @@
+@import url(./reset.css);
+body {
+   background-image: url(https://i.makeagif.com/media/8-26-2023/cjaI99.gif);
+    background-size: cover;
+    
+}
+.full-search{
+    width: 100%;
+    height:400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  
+}
+
+
+.mainSearch{
+   width: 800px;
+    height: 800px;
+    background-color: rgb(189, 196, 232);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    border-radius: 40px;
+    gap: 20px;
+}
+.search   input{
+    height: 60px;
+    width:400px ;
+    background-color: rgb(131, 146, 218);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 24px;
+    color: blue;
+    padding-left: 20px;
+    
+}
+.search{
+    display: flex;
+    gap: 20px;
+}
+.location{
+    display: flex;
+    gap: 20px;
+}
+.search div{
+    display: flex;
+    gap: 20;
+}
+.fa-magnifying-glass{
+    font-size: 36px;
+    padding-top: 11px;
+}
+
+.fa-location-crosshairs{
+    font-size: 40px;
+    padding-top: 7px;
+
+   
+
+
+}
+
+.search input::placeholder{
+    font-size: 24px;
+    padding-left: 20px;
+    color: 
+    blue;
+}
+
+.temperature{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-cloud-sun{
+    font-size: 140px;
+    padding-left: 200px;
+    
+}
+
+.temperature h1 {
+    text-align: center;
+ font-size: 60px;
+}
+.icon-dv span {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    }
+
+.icon-dv h1{
+    text-align: center;
+    font-size: 50px;
+
+}    
+
+.humidity i{
+font-size: 40px;
+}
+.humidity h1{
+    font-size: 20px;
+    }
+
+.speed i{
+    font-size: 40px;
+}
+
+.speed h1{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.full-result{
+    display: flex;
+
+}
+    
+
+.icon-dv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.humidity{
+    padding-right: 200px;
+    display: flex;
+    gap: 20px;
+}
+.speed{
+    padding-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+.speed div{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+
+.humidity div{
+    display: flex;
+    flex-direction: column;
+    gap:6px
+}
+.cloud{
+    width: 280px;
+    height: 280px;
+    margin-left: 200px;
+}
+
+.eror{
+    font-size: 24px;
+    color: red;
+}
